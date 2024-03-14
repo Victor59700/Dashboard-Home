@@ -1,222 +1,323 @@
- body .contrainercolum {
-     display: flex;
-     flex-direction: row;
-     border-top-right-radius: 30px;
-     border-bottom-right-radius: 30px;
- }
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body .contrainercolum {
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 
 
- .container {
-     display: flex;
- }
+.container {
+    display: flex;
+    width: 100%;
+}
 
- .sidbar {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-
- }
-
-
- .buttonsidebarhigh img {
-     width: 80px;
-     border-top-left-radius: 30px;
- }
-
-
- .buttonsidebarhigh {
-     display: flex;
-     flex-direction: column;
-     background-color: #ffffff;
-     border-top-left-radius: 30px;
- }
-
- .buttonsidebarlow {
-     display: flex;
-     flex-direction: column;
-     background-color: #ffffff;
-     border-bottom-left-radius: 30px;
-
- }
-
-
- button {
-     border: 0;
-     width: 160px;
-     height: 49px;
-     border-radius: 9px;
-     margin-left: 20px;
-     margin-right: 10px;
-     margin-bottom: 20px;
-     cursor: pointer;
-     background-color: #ffffff;
-     display: flex;
-     align-items: center;
-
-
- }
-
- button:hover {
-
-     background-color: rgba(108, 109, 110, 0.681);
-   height: 49px;
-   width: 160px;
- }
-
- .contrainercolum {
-     background-color: #eceff1;
-     height: 100vh;
-     width: 100%;
-     transform: scale(1.1);
-     margin-left: 90px;
-
- }
-
-
- .title img {
-     width: 280px;
- }
-
-
- .title {
-     display: flex;
-     flex-direction: column;
-     justify-content: left;
-     align-items: center;
-     margin-top: 70px;
-     margin-left: 30px;
-
-
- }
-
- .card {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     border-radius: 10px;
-     background-color: #2962ff;
-     text-align: center;
-     margin-top: 15px;
-     width: 290px;
-     height: 230px;
-     margin-left: 35px;
-     color: #ffffff;
-
- }
-
- .card button {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     width: 100px;
-     height: 50px;
-
- }
-
- .card2 {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     margin-top: 110px;
-     margin-left: 40px;
-     margin-bottom: 50px;
-
-
- }
-
-
- .emoji {
-     display: flex;
-     justify-content: left;
-     background-color: #ffffff;
-     border-radius: 10px;
-     height: 86px;
-     padding-left: 20px;
- }
-
- .cardview img {
-     width: 230px;
-     margin-left: 15px;
-     margin-right: 15px;
- }
-
-
- .cardview {
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-     background-color: #ffffff;
-     border-radius: 15px;
-    
- }
-
- .cardview button {
-
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: auto;
-     height: 70px;
-     margin-top: 20px;
- }
-
-
- .card3 {
-     display: flex;
-     flex-direction: column;
-     justify-content: right;
-     margin-left: 50px;
-     margin-top: 60px;
- }
-
- .bells {
-
-     display: flex;
-     flex-direction: row;
-     justify-content: end;
-     margin-bottom: 30px;
- }
-
- .targets {
-     display: flex;
-     flex-direction: column;
-     align-items: left;
-     padding-bottom: 25px;
-     padding-left: 20px;
-     background-color: #ffffff;
-     border-radius: 15px;
- }
+.sidbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
 
 
 
- .users {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     height: 350px;
-     margin-left: 15px;
- }
-
- .users img {
-
-     display: flex;
-     border-radius: 40px;
-     width: 60px;
-
- }
-
- .usercard {
-     display: flex;
-     align-items: center;
-     justify-content: left;
-     background-color: #ffffff;
-     border-radius: 10px;
-     width: 300px;
-     height: 100px;
-     padding-left: 20px;
-     margin-bottom: 25px;
+.buttonsidebarhigh img {
+    width: 80px;
+    border-top-left-radius: 30px;
+}
 
 
- }
+.buttonsidebarhigh {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+}
+
+.buttonsidebarlow {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-bottom-left-radius: 30px;
+
+}
+
+.buttonsidebarlow i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #eceff1;
+    border-radius: 20px;
+}
+
+i {
+
+    margin-right: 10px;
+}
+
+a {
+    border: 0;
+    width: 160px;
+    height: 49px;
+    border-radius: 9px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    background-color: rgba(108, 109, 110, 0.681);
+    height: 49px;
+    width: 210px;
+}
+
+button:hover {
+    background-color: rgba(108, 109, 110, 0.681);
+}
+
+button {
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.contrainercolum {
+    background-color: #eceff1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 85%;
+}
+
+
+
+.title img {
+    width: 300px;
+}
+
+.title h2 {
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2962ff;
+    align-items: center;
+    text-align: center;
+    width: 290px;
+    height: 230px;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.card i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #0044ff;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+
+.card button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 86px;
+    padding-left: 20px;
+
+}
+
+.emoji p {
+    display: flex;
+
+}
+
+.emoji .fa-regular {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #2962ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.emoji .fa-solid {
+    background-color: #f70000;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji .colorsmile i {
+    background-color: rgba(252, 173, 28, 0.857);
+
+}
+
+
+
+.cardview img {
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.cardview {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 30px;
+
+}
+
+.cardview button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+}
+
+.bells {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.targets {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+
+
+}
+
+.users h2 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.percentage {
+    margin-right: 100px;
+
+}
+
+.targets p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.users img {
+    display: flex;
+    border-radius: 40px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.plus {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.usercard {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    height: 100px;
+
+}
